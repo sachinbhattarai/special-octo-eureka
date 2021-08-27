@@ -1,0 +1,76 @@
+	body{margin: 0;
+	background-color: #f1f1f1;
+    }
+
+    nav{
+    	background-color: #373737;
+    	width: 280px;
+        height: 625px;
+    	margin-top: 0;
+    } 
+
+    .logo{
+     border: 0;
+     width: 280px;
+     height: auto;
+
+    }
+
+ul{
+    margin: 0;
+    padding: 0;
+    color: #f1f1f1;
+    }
+
+    li{ 
+    	margin: 0px 1px 20px 1px ;
+    	padding: 30px;
+    	list-style: none ;
+    	font-family: "Comic Sans MS"; 
+    	font-size: 25px;
+
+
+    	 	}
+    	
+    	    i{ 
+    	    	float: right;
+    	    }
+
+    	    a{
+                display: block;
+    	    	text-decoration: none;
+                color: #f1f1f1;
+
+    	    }
+
+    	    li a:hover{ 
+    	    	color: white;    
+                text-decoration: underline;
+                font-size: 26px;
+    	    	}
+
+    	    ul li ul li{
+    	    	padding:2px;
+    	    	margin: 0;
+    	    	text-align: center;
+    	        float: bottom; 
+    	    	display: none;
+    	    	overflow: hidden;
+    	    }
+
+            hr{
+                width: 260px;
+                border-radius: 10px;
+               }
+
+    	    ul li ul li:hover{
+    	    	background-color: green;
+                border: 1px solid white; 
+    	        }
+
+    	    ul li:hover ul li{
+    	    	display: block;
+    	    }
+
+
+
